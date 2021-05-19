@@ -17,3 +17,11 @@ optionally you can make a symlink:
 ```shell
 sudo ln -sf PowerStatusColor.sh /usr/bin
 ```
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
