@@ -9,23 +9,12 @@ All of these are available in the AUR
 
 # Installation
 If you have statuscolor patch for dwm, then:   
-```shell
+```bash
 sudo chmod +x PowerStatusColor.sh
 ./PowerStatusColor.sh 
 ```
 optionally you can make a symlink:   
-```shell
+```bash
 sudo ln -sf PowerStatusColor.sh /usr/bin
 ```
 
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
