@@ -25,3 +25,7 @@ sudo ln -sf PowerStatusColor.sh /usr/bin
   "age": 25
 }
 ```
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
