@@ -8,4 +8,12 @@
 All of these are available in the AUR
 
 # Installation
-
+If you have statuscolor patch for dwm, then:   
+```shell
+sudo chmod +x PowerStatusColor.sh
+./PowerStatusColor.sh 
+```
+optionally you can make a symlink:   
+```shell
+sudo ln -sf PowerStatusColor.sh /usr/bin
+```
