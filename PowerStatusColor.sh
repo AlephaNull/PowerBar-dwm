@@ -16,7 +16,7 @@ color5="\x07"
 
 #main functions
 datetime(){
-  date_time="$(date '+%d-%m-%Y   %H:%M')" #date and time in dd-mm-yyy HH:MM format
+  date_time="$(date '+%d-%m-%Y   %H:%M:%S')" #date and time in dd-mm-yyy HH:MM format
   printf "%s%s" "$(echo -e $color2 $powerline_h)" "$(echo -e $color3 "" $date_time)"
 }
 
@@ -44,7 +44,7 @@ process(){
 #update every 30 seconds
 while true; do
   xsetroot -name "$(process) $(memory) $(battery) $(sound) $(datetime)"
-	sleep 30
+	sleep 5
 done
 
 
