@@ -38,7 +38,7 @@ memory(){
 
 process(){
   cpu="$(ps -eo pcpu | awk 'BEGIN {sum=0.0f} {sum+=$1} END {print sum}')"
-  printf "%s%s" "$(echo -e $color5 $powerline_h)" "$(echo -e $color3 "" $cpu'%')"
+  printf "%s%s" "$(echo -e $color5 $powerline_h)" "$(echo -e $color3 "" $cpu'%')"
 }
 
 #update every 30 seconds
