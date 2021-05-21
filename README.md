@@ -17,4 +17,11 @@ optionally you can make a symlink:
 ```bash
 sudo ln -sf PowerStatusColor.sh /usr/bin
 ```
+# Preview
+
+PowerBar-Color   
+![powerbar-color](img/powerbar-color.png)   
+
+PowerBar without color   
+![powerbar-no-color](img/powerbar.png)   
 
