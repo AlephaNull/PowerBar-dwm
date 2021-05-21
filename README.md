@@ -17,6 +17,11 @@ optionally you can make a symlink:
 ```bash
 sudo ln -sf PowerStatusColor.sh /usr/bin
 ```
+
+# Note
+To use the PowerBar-color statusbar , you will require the [statuscolor](https://dwm.suckless.org/patches/statusbar) 
+
+
 # Preview
 
 PowerBar-Color   
