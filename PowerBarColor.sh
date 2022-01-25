@@ -26,9 +26,8 @@ sound(){
 }
 
 battery(){
-  batc="$(cat  /sys/class/power_supply/BAT0/capacity)"   # contains a value from 0 to 100
-  bats="$(cat /sys/class/power_supply/BAT0/status)"     # either "Charging" or "Discharging" 
-  printf "%s%s %s" "$(echo -e $color2 $powerline_h)" "$(echo -e $color3 "" $batc'%')" "$(echo -e $color3 $bats)"
+  disk="$( df -h | awk ' /[0-9]/ {print $3 "/" $2}' | grep 251)"
+  printf "%s%s %s" "$(echo -e $color2 $powerline_h)" "$(echo -e $color3 "" $disk)" "$(echo -e $color3 $bats)"
 }
 
 memory(){
