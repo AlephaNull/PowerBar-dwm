@@ -19,7 +19,7 @@ sudo ln -sf PowerStatusColor.sh /usr/bin
 ```
 
 # Note
-To use the PowerBar-color statusbar , you will require the [statuscolor](https://dwm.suckless.org/patches/statusbar) patch   
+To use the PowerBar-color statusbar , you will require the [statuscolor](https://dwm.suckless.org/patches/statuscolor) patch   
 You will aslo require atleast seven colors declared in your config.h. You can use my [colors.h](https://github.com/HashTag-4512/Suckless-Programs/blob/main/dwm/colors.h) file from my dwm build as a template
 
 
